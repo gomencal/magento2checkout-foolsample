@@ -11,7 +11,7 @@ define([
      * @return {Number}
      */
     var getTotal = function () {
-        return quote.totals()['grand_total'];
+        return quote.totals().grand_total;
     };
 
     var getQuote = function() {
@@ -44,7 +44,7 @@ define([
             }
 
             if (getTotal() >= this.config.amount_edge) {
-                return require.toUrl(this.config.image3);
+                return require.toUrl(this.config.image);
             }
             return false;
         },

@@ -12,7 +12,6 @@ class BasicConfigProvider implements ConfigProviderInterface
     const AMOUNT_EDGE = 100;
     const IMAGE = 'Misterge_FoolSample/images/foolsample2.gif';
     const IMAGE2 = 'Misterge_FoolSample/images/foolsample3.gif';
-    const IMAGER = 'Misterge_FoolSample/images/foolsampler.gif';
 
     /**
      * {@inheritdoc}
@@ -26,7 +25,6 @@ class BasicConfigProvider implements ConfigProviderInterface
                 'amount_edge' => self::AMOUNT_EDGE,
                 'image' => self::IMAGE,
                 'image2' => self::IMAGE2,
-                'imageR' => self::IMAGER,
             ]
         ];
 
