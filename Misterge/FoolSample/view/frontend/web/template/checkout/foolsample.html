@@ -1,0 +1,12 @@
+<!-- ko if: (isVisible()) -->
+<div class="foolsample">
+    <div class="foolsample-title">
+        <span data-bind="i18n: getTitle()"></span>
+    </div>
+    <div class="foolsample-content">
+        <!-- ko if: (getImage()) -->
+        <img data-bind="attr: {src: getImage(), alt: $t('Ojocuidao')}" />
+        <!--/ko-->
+    </div>
+</div>
+<!--/ko-->
